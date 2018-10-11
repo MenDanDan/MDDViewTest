@@ -10,10 +10,9 @@ Pod::Spec.new do |s|
 
   s.name         = "MDDViewTest"
   s.version      = "1.0"
-   s.summary      = "MDDViewTest is a test,you can look it.valid spec and to remove all comments including this before submitting the spec.
-" 
+   s.summary      = "MDDViewTest is a test,you can look it.valid spec and to remove all comments including this before submitting the spec."
+    s.description =  "MDDViewTest is a test,you can look it.valid spec and to remove all comments including this before submitting the spec."
     s.ios.deployment_target = '8.0'
-    s.summary      = "MDDViewTest" 
     s.homepage = "https://github.com/yoowei/yooweiTest" 
     s.license= { :type => "MIT", :file => "LICENSE" }
     s.author = { "MenDanDan" => "528367007@qq.com" } 
