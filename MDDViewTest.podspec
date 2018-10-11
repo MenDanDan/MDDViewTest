@@ -8,16 +8,16 @@
 
 Pod::Spec.new do |s|
 
-    s.name         = "MDDViewTest"
-    s.version      = "1.0"
-    s.summary      = "MDDViewTest"
-    s.description =  "MDDViewTest"   
+    s.name         = 'MDDViewTest'
+    s.version      = '1.0'
+    s.summary      = 'MDDViewTest'
+    s.description =  'MDDViewTest'   
     s.ios.deployment_target = '8.0'
-    s.homepage = "https://github.com/yoowei/yooweiTest" 
-    s.license= { :type => "MIT", :file => "LICENSE" }
-    s.author = { "MenDanDan" => "528367007@qq.com" } 
-    s.source = { :git => "https://github.com/MenDanDan/MDDViewTest.git", :tag => 1.0.0 }      
-    s.source_files  = "MDDViewTest", "MDDViewTest/**/*" 
+    s.homepage = 'https://github.com/yoowei/yooweiTest' 
+    s.license= { :type => 'MIT', :file => 'LICENSE' }
+    s.author = { 'MenDanDan' => '528367007@qq.com' } 
+    s.source = { :git => 'https://github.com/MenDanDan/MDDViewTest.git', :tag =>'v1.0.0' }      
+    s.source_files  = 'MDDViewTest', 'MDDViewTest/**/*' 
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
